@@ -5,10 +5,13 @@ import { HttpModule }    from '@angular/http';
 
 import { routing } from  './app.routing';
 import { AppComponent }   from './component/app.component';
+import { ProgrammationComponent } from './component/programmation.component';
+import { VideosComponent } from './component/videos.component';
+import  { StreamComponent } from './component/stream.component';
 
 @NgModule({
     imports:      [ BrowserModule, routing, FormsModule, HttpModule ],
-    declarations: [ AppComponent ],
+    declarations: [ AppComponent, ProgrammationComponent, VideosComponent, StreamComponent ],
     bootstrap:    [ AppComponent ]
 })
 
